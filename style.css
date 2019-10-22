@@ -1,0 +1,15 @@
+ body {
+     background-color: rgba(186, 207, 222, 0.7) !important;
+ }
+ 
+ .bg-primary {
+     background-color: #006699!important;
+ }
+ 
+ .navbar li a {
+     color: seashell !important;
+ }
+ 
+ .container {
+     background-color: slategray !important;
+ }
