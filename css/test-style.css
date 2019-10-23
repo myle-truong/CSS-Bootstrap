@@ -2,3 +2,13 @@
     display: grid;
     grid-template-columns: 10% 90%;
 }
+
+.card {
+    margin: 15px;
+}
+
+
+/*.card img {
+    width: 48px;
+    height: 48px;
+}*/
