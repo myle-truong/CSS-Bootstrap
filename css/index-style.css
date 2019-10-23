@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(186, 207, 222, 0.7) !important;
+}
+
+.wrapper {
+    display: grid;
+    grid-column: 10% 90%;
+}
+
+.bg-primary {
+    background-color: #006699!important;
+}
+
+.nav {
+    background-color: #24596b !important;
+}
+
+.container {
+    background-color: grey !important;
+}

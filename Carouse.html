@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 4</title>
+    <!-- Import Boostrap css, js, font awesome here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="./css/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		    </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Typing what you're curious">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+            <li data-target="#slides" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/carouse0.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Example headline</h1>
+                    <h3> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">
+					Sign up today
+				</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/carouse1.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/carouse2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/carouse3.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- jumbotron -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4 ">
+                <i class="fab fa-react" class="rounded-circle"></i>
+                <h3>React</h3>
+                <p>Build the latest version of React</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto eum quaerat repellat non autem ea deleniti, iste ab enim.</p>
+                <button type="button" class="btn btn-primary btn-sm"><a href="https://reactjs.org/"> View detail >> </a>
+                </button>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fab fa-angular" class="rounded-circle"></i>
+                <h3>Angular</h3>
+                <p>Build your Website and Front-end Application</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto eum quaerat repellat non autem ea deleniti, iste ab enim.</p>
+                <button type="button" class="btn btn-primary btn-sm"><a href="https://angular.io/"> View detail >> </a>
+                </button>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3,HTML5, JS</h3>
+                <p>Customize your web UI with Html5 and Css3</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto eum quaerat repellat non autem ea deleniti, iste ab enim.</p>
+                <button type="button" class="btn btn-primary btn-sm"><a href="https://en.wikipedia.org/wiki/Web_developer"> View detail >> </a>
+                </button>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6 d-flex justify-content-center text-center">
+                <div class="centerBlock">
+                    <h2>Tell me what do you want...</h2>
+                    <p>Arduino is an open-source hardware, software and content platform with a global community. It’s intended for anyone making interactive projects.</p>
+                    <p>Arduino Education is a dedicated team formed by education experts, content developers, engineers and interaction designers from all around the world</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="./images/carouse4.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <hr class="my-2">
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <img src="./images/carouse5.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-12 col-lg-6 d-flex justify-content-center text-center">
+                <div class="centerBlock">
+                    <h2>Than I build it...</h2>
+                    <p>Arduino is an open-source hardware, software and content platform with a global community. It’s intended for anyone making interactive projects.</p>
+                    <p>Arduino Education is a dedicated team formed by education experts, content developers, engineers and interaction designers from all around the world</p>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr class="my-2">
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6 d-flex justify-content-center text-center">
+                <div class="centerBlock">
+                    <h2> Your satisfaction is my pride </h2>
+                    <p>All our work is for customer satisfaction with high quality products</p>
+                    <p>We make outsourcing all softwares relating to CMS, Database, Education</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="./images/carouse6.jpg" class="img-fluid">
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Contact me</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row d-flex align-items-center">
+            <div class="col-md-7 col-lg-8">
+                <p class="text-center text-md-left">© 2018 Copyright: <strong> Ik heb hunger</strong></p>
+            </div>
+            <div class="col-md-7 col-lg-8 text-center text-md-right">
+                <p><a href="#"><strong> Back to top</strong></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
