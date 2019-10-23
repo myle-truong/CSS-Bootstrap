@@ -4,11 +4,15 @@
 }
 
 .card {
-    margin: 15px;
+    width: 221px;
+    height: 330px;
 }
 
+.card-img-top {
+    margin;
+    30px;
+}
 
-/*.card img {
-    width: 48px;
-    height: 48px;
-}*/
+*.card img {
+    justify-content: center;
+}
